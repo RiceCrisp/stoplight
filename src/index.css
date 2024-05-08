@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+}
+
+.stoplight {
+  background: black;
+  border-radius: 5px;
+  display: inline-grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.yellow {
+  background-color: yellow;
+  opacity: 0.5;
+}
+
+.green {
+  background-color: green;
+  opacity: 0.5;
+}
+
+.on {
+  opacity: 1;
+  color: white;
+}
