@@ -2,6 +2,11 @@ html {
   font-family: sans-serif;
 }
 
+.app {
+  display: inline-grid;
+  gap: 10px;
+}
+
 .stoplight {
   background: black;
   border-radius: 5px;
@@ -10,29 +15,23 @@ html {
   padding: 20px;
 }
 
+.slot {
+  height: 60px;
+  display: flex;
+  gap: 10px;
+}
+
 .light {
   width: 60px;
-  height: 60px;
+  height: 100%;
   background: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.red {
-  background-color: red;
   opacity: 0.5;
-}
-
-.yellow {
-  background-color: yellow;
-  opacity: 0.5;
-}
-
-.green {
-  background-color: green;
-  opacity: 0.5;
+  font-size: 12px;
+  text-align: center;
 }
 
 .on {
